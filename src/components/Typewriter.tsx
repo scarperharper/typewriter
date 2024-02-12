@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 // eslint-disable-next-line no-unused-vars
 import { TypewriterEngine, TypewriterProps } from './TypewriterEngine'
 
-export default function Typewriter({
+export function Typewriter({
   phrases,
   baseCadence = 50,
   delayBeforeStart = 500,

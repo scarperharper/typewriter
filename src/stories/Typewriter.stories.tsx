@@ -1,10 +1,7 @@
 import React from 'react'
-import Typewriter from '../components/Typewriter'
-
-export default {
-  title: 'Typewriter',
-  component: Typewriter
-}
+import { Typewriter } from '../components/Typewriter'
+// eslint-disable-next-line no-unused-vars
+import type { Meta } from '@storybook/react'
 
 export const Default = () => (
   <Typewriter
@@ -18,3 +15,10 @@ export const Default = () => (
     delayBeforeDelete={2000}
   />
 )
+
+const meta: Meta<typeof Typewriter> = {
+  title: 'Typewriter',
+  component: Typewriter
+}
+
+export default meta
