@@ -1,6 +1,6 @@
 {
-  "name": "typewriter",
-  "version": "1.0.0",
+  "name": "@scarperharper/typewriter",
+  "version": "0.0.1",
   "description": "A simple typewriter animation component",
   "author": "scarperharper",
   "license": "MIT",
