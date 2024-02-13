@@ -1,10 +1,16 @@
 {
   "name": "typewriter",
+  "publishConfig": {
+    "registry": "https://github.com/scarperharper/typewriter"
+  },
   "version": "1.0.0",
   "description": "A simple typewriter animation component",
   "author": "scarperharper",
   "license": "MIT",
-  "repository": "scarperharper/typewriter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarperharper/typewriter.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
