@@ -1,8 +1,5 @@
 {
   "name": "typewriter",
-  "publishConfig": {
-    "registry": "https://github.com/scarperharper/typewriter"
-  },
   "version": "1.0.0",
   "description": "A simple typewriter animation component",
   "author": "scarperharper",
