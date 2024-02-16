@@ -1,21 +1,20 @@
 # typewriter
 
-A simple typewriter animation component inspired by [JS Typewriter by Simon Shahriveri](https://codepen.io/hi-im-si/pen/ALgzqo).
+A simple React typewriter animation component inspired by [JS Typewriter by Simon Shahriveri](https://codepen.io/hi-im-si/pen/ALgzqo).
 
 [![NPM](https://img.shields.io/npm/v/typewriter.svg)](https://www.npmjs.com/package/typewriter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save typewriter
+npm i @scarperharper/typewriter
 ```
 
 ## Usage
 
 ```tsx
 import React, { Component } from 'react'
-
-import MyComponent from 'typewriter'
+import Typewriter from '@scarperharper/typewriter'
 import 'typewriter/dist/index.css'
 
 class Example extends Component {
