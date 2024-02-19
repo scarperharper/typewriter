@@ -2,7 +2,7 @@
 
 A simple React typewriter animation component inspired by [JS Typewriter by Simon Shahriveri](https://codepen.io/hi-im-si/pen/ALgzqo).
 
-[![NPM](https://img.shields.io/npm/v/typewriter.svg)](https://www.npmjs.com/package/typewriter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![](typewriter-animation.gif)
 
 ## Install
 
