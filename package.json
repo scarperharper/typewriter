@@ -1,6 +1,6 @@
 {
   "name": "@scarperharper/typewriter",
-  "version": "0.2.4",
+  "version": "0.2.2",
   "description": "A simple typewriter animation component",
   "author": "scarperharper",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "build-storybook": "storybook build",
     "preversion": "npm test",
     "version": "npm run build",
-    "postversion": "git push && git push --tags && gh release create v$npm_package_version"
+    "postversion": "git push && git push --tags && gh release create \"v$npm_package_version\" --title \"v$npm_package_version (beta)\" --notes \"\" --prerelease"
   },
   "peerDependencies": {
     "react": "^18.2.0"
