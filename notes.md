@@ -1,6 +1,6 @@
 # Publishing
 
-1. Update version in package.lock
+1. Update version in package.json
 2. `npm i`
 3. `npm run postversion`
 
