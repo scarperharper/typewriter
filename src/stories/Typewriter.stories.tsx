@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from '../components/Typewriter'
-// eslint-disable-next-line no-unused-vars
+ 
 import { TypewriterProps } from '../components/TypewriterEngine'
 
 import '../styles/example.scss'

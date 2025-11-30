@@ -19,7 +19,7 @@ import 'typewriter/dist/index.css'
 
 class Example extends Component {
   render() {
-    <Typewriter
+    ;<Typewriter
       phrases={[
         'All human beings are born free and equal in dignity and rights.',
         'Everyone is entitled to all the rights and freedoms set forth in this Declaration',
