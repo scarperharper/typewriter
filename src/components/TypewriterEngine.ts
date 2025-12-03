@@ -28,7 +28,6 @@ export class TypewriterEngine {
   constructor(props: TypewriterProps, callback: (text: string) => void) {
     this.props = props
     this.callback = callback
-    console.log('creating')
   }
 
   tick() {
@@ -36,7 +35,8 @@ export class TypewriterEngine {
 
     if (this.isDeleting) {
       this.txt = phrase.substring(0, this.txt.length - 1)
-    } else {
+    }
+    else {
       this.txt = phrase.substring(0, this.txt.length + 1)
     }
 
@@ -49,7 +49,8 @@ export class TypewriterEngine {
     if (!this.isDeleting && this.txt === phrase) {
       delta = this.props.delayBeforeDelete
       this.isDeleting = true
-    } else if (this.isDeleting && this.txt === '') {
+    }
+    else if (this.isDeleting && this.txt === '') {
       delta = this.props.delayBeforeStart
       this.isDeleting = false
       this.loopNum++
@@ -64,6 +65,5 @@ export class TypewriterEngine {
 
   stop() {
     clearTimeout(this.timeoutRef)
-    console.log('destroying')
   }
 }

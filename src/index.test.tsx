@@ -1,7 +1,7 @@
+import { describe, expect, it } from 'vitest'
 import { Typewriter } from '.'
-import { describe, it, expect } from 'vitest'
 
-describe('Typewriter', () => {
+describe('typewriter', () => {
   it('is truthy', () => {
     expect(Typewriter).toBeTruthy()
   })

@@ -1,5 +1,5 @@
 // vite.config.js
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -8,10 +8,10 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.tsx'),
       name: 'typewriter',
 
-      fileName: 'index'
+      fileName: 'index',
     },
     rollupOptions: {
-      external: ['react']
-    }
-  }
+      external: ['react'],
+    },
+  },
 })
